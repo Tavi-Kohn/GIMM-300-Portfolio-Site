@@ -9,28 +9,28 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.1/css/bulma.min.css"
         integrity="sha256-1nEaE91OpXJD7M6W5uSiqxhdmrY+lOOTHC1iUxU9Pds=" crossorigin="anonymous">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <script src="../navbar-toggle.js"></script>
+    <script src="/navbar-toggle.js"></script>
 
-    <link rel='stylesheet' type='text/css' media='screen' href='../main.css'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='/main.css'> -->
 </head>
 
 <body>
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <a class="navbar-item" href="../index.html">
+            <a class="navbar-item" href="/index.html">
                 <span style="font-size: 2em;">Tavi Kohn</span>
             </a>
-            
+
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
-              </a>
+            </a>
         </div>
         <div class="navbar-menu" id="navMenu">
             <div class="navbar-start">
-                <a class="navbar-item" href="../index.html">Home</a>
-                <a class="navbar-item" href="../projects/index.html">Projects</a>
+                <a class="navbar-item" href="/index.html">Home</a>
+                <a class="navbar-item" href="/projects/index.html">Projects</a>
             </div>
         </div>
     </nav>
@@ -40,17 +40,21 @@
 
             <nav class="breadcrumb" aria-label="breadcrumbs">
                 <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../projects/index.html">Projects</a></li>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/projects/index.html">Projects</a></li>
                     <li class="is-active"><a href="#" aria-current="page">Smart Debugger</a></li>
                 </ul>
             </nav>
 
             <div class="content">
                 <h2 class="title is-2">Smart Debugger</h2>
-                <p>When learning C programming (after learning Java), I found it frustrating trying to figure out and visualize the layout of my data structures, both abstractly and in memory.</p>
-                <p>This project aims to alleviate that frustration by providing a tool to visualize variables, data, and heap allocations in an easy to use debugging tool. I currently have completed multiple proof-of-concepts, and am moving towards architecting the overall system.</p>
-                <p>I've found a multitude of Rust libraries that make it significantly easier to parse debug information and analyze programs, but fitting everything together has proven difficult for me.</p>
+                <p>When learning C programming (after learning Java), I found it frustrating trying to figure out and
+                    visualize the layout of my data structures, both abstractly and in memory.</p>
+                <p>This project aims to alleviate that frustration by providing a tool to visualize variables, data, and
+                    heap allocations in an easy to use debugging tool. I currently have completed multiple
+                    proof-of-concepts, and am moving towards architecting the overall system.</p>
+                <p>I've found a multitude of Rust libraries that make it significantly easier to parse debug information
+                    and analyze programs, but fitting everything together has proven difficult for me.</p>
             </div>
         </div>
     </section>
