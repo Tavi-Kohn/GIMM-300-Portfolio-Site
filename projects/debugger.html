@@ -4,21 +4,20 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Tavi Kohn</title>
+    <title>Tavi Kohn - Debugger</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.1/css/bulma.min.css"
         integrity="sha256-1nEaE91OpXJD7M6W5uSiqxhdmrY+lOOTHC1iUxU9Pds=" crossorigin="anonymous">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <script src="navbar-toggle.js"></script>
+    <script src="../navbar-toggle.js"></script>
 
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <!-- <script src='main.js'></script> -->
+    <link rel='stylesheet' type='text/css' media='screen' href='../main.css'>
 </head>
 
 <body>
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <a class="navbar-item" href="index.html">
+            <a class="navbar-item" href="../index.html">
                 <span style="font-size: 2em;">Tavi Kohn</span>
             </a>
             
@@ -29,10 +28,9 @@
               </a>
         </div>
         <div class="navbar-menu" id="navMenu">
-            <!-- <div class="navbar-end"> -->
             <div class="navbar-start">
-                <a class="navbar-item" href="index.html">Home</a>
-                <a class="navbar-item" href="projects/index.html">Projects</a>
+                <a class="navbar-item" href="../index.html">Home</a>
+                <a class="navbar-item" href="../projects/index.html">Projects</a>
             </div>
         </div>
     </nav>
@@ -40,11 +38,10 @@
     <section class="section">
         <div class="container">
             <div class="content">
-                <h2 class="title is-2">About Me</h2>
-                <figure class="image is-128x128">
-                    <img class="is-rounded" src="https://avatars2.githubusercontent.com/u/28514453"/>
-                </figure>
-                <p>I'm a Computer Science student at Boise State University. This site is a portfolio of my in progress and finished projects.</p>
+                <h2 class="title is-2">Smart Debugger</h2>
+                <p>When learning C programming (after learning Java), I found it frustrating trying to figure out and visualize the layout of my data structures, both abstractly and in memory.</p>
+                <p>This project aims to alleviate that frustration by providing a tool to visualize variables, data, and heap allocations in an easy to use debugging tool. I currently have completed multiple proof-of-concepts, and am moving towards architecting the overall system.</p>
+                <p>I've found a multitude of Rust libraries that make it significantly easier to parse debug information and analyze programs, but fitting everything together has proven difficult for me.</p>
             </div>
         </div>
     </section>
